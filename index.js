@@ -1,8 +1,8 @@
-let numeroSecreto = Math.floor(Math.random() * 100 + 1); //gera um número aleatório de 1 a 100.
+let numeroSecreto = Math.floor(Math.random() * 100 + 101); //gera um número aleatório de 100 a 200.
 let numeroUsuario;
 let tentativas = 10;
 
-console.log("Digite um número de 1 a 100");
+console.log("Digite um número de 100 a 200");
 
 process.stdin.on("data", function (data) {
   numeroUsuario = Number(data.toString().trim());
